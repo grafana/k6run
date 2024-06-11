@@ -1,4 +1,4 @@
-<!-->
+<!--
 [![Go Reference](https://pkg.go.dev/badge/github.com/grafana/k6run.svg)](https://pkg.go.dev/github.com/grafana/k6run)
 [![GitHub Release](https://img.shields.io/github/v/release/grafana/k6run)](https://github.com/grafana/k6run/releases/)
 [![Go Report Card](https://goreportcard.com/badge/github.com/grafana/k6run)](https://goreportcard.com/report/github.com/grafana/k6run)

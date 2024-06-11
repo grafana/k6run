@@ -1,0 +1,6 @@
+/k6run
+/k6run.exe
+/build
+/node_modules
+/package.json
+/yarn.lock

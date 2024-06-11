@@ -11,6 +11,6 @@ import (
 
 func main() {
 	root := cmd.New()
-	root.Use = strings.ReplaceAll(root.Use, "deps", "k6deps")
+	root.Use = strings.ReplaceAll(root.Use, "run", "k6run")
 	clireadme.Main(root, 1)
 }

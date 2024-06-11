@@ -1,11 +1,9 @@
-<!--
 [![Go Reference](https://pkg.go.dev/badge/github.com/grafana/k6run.svg)](https://pkg.go.dev/github.com/grafana/k6run)
 [![GitHub Release](https://img.shields.io/github/v/release/grafana/k6run)](https://github.com/grafana/k6run/releases/)
 [![Go Report Card](https://goreportcard.com/badge/github.com/grafana/k6run)](https://goreportcard.com/report/github.com/grafana/k6run)
 [![GitHub Actions](https://github.com/grafana/k6run/actions/workflows/test.yml/badge.svg)](https://github.com/grafana/k6run/actions/workflows/test.yml)
 [![codecov](https://codecov.io/gh/grafana/k6run/graph/badge.svg?token=X9EUHZZADY)](https://codecov.io/gh/grafana/k6run)
 ![GitHub Downloads](https://img.shields.io/github/downloads/grafana/k6run/total)
--->
 
 <h1 name="title">k6run</h1>
 
@@ -30,7 +28,7 @@ go install github.com/grafana/k6run/cmd/k6run@latest
 ## Usage
 
 <!-- #region cli -->
-## run
+## k6run
 
 Launching k6 with extensions
 
@@ -40,13 +38,13 @@ Launching k6 containing the extensions used by the test script.
 
 
 ```
-run [flags] [script-file]
+k6run [flags] [script-file]
 ```
 
 ### Flags
 
 ```
-  -h, --help   help for run
+  -h, --help   help for k6run
 ```
 
 <!-- #endregion cli -->
